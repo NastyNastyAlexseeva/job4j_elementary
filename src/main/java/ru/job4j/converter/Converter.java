@@ -10,9 +10,13 @@ public class Converter {
     }
 
     public static void main(String[] args) {
-        float euro = rubleToEuro(140);
-        float dollar = rubleToDollar(140);
+        float euro = rubleToEuro(140F);
+        float dollar = rubleToDollar(140F);
         System.out.println("140 rubles are " + euro + " euro.");
         System.out.println("140 dollars are " + dollar + " dollar.");
+
+        float test = 22E37F;
+        System.out.println(test);
+
     }
 }
