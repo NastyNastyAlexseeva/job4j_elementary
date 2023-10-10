@@ -6,9 +6,8 @@ public class SqArea {
     }
 
     static public void main(String[] args) {
-        double result = square(6, 2);
-        double result2 = square(4, 1);
-        System.out.println(result);
-        System.out.println(result2);
+        System.out.println(square(6, 2));
+        System.out.println(square(4, 1));
+        System.out.println(square(2, 3));
     }
 }
