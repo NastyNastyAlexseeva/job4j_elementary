@@ -7,5 +7,12 @@ public class ArrayDefinition {
         float[] prices = new  float[40];
 
         System.out.println(ages.length + "\n" + surnames.length + '\n' + prices.length);
+
+        String[] names = new String[4];
+        names[0] = "Igor";
+        names[1] = "Olya";
+        names[2] = "Petr";
+        names[3] = "Fedya";
+        System.out.println(names[0] + "\n" + names[1] + "\n" + names[2] + "\n" + names[3]);
     }
 }
